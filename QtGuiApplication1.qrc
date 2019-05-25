@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="QtGuiApplication1"/>
+  <qresource prefix="/image">
+    <file>images/打开文件.png</file>
+  </qresource>
+</RCC>
