@@ -52,7 +52,7 @@ void QtGuiApplication1::OpenFile()
 			//读取一行
 			ss = in.readLine();
 			//分割存储进list
-			list = ss.split(QRegExp("[,+|\\s+|\\n]"));  //正则表达式--空格或逗号为分隔符的文件
+			list = ss.split(QRegExp("(\\s+|,+)"));  //正则表达式--空格或逗号为分隔符的文件
 			for (j = 0; j < 4; j++)
 			{
 				//添加数据
